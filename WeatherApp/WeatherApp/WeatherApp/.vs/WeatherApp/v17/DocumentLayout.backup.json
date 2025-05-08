@@ -1,0 +1,125 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\DSU Student\\Downloads\\final-project-weatherapp\\RedesignedWeatherApp\\WeatherApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FAF40312-3190-4AA5-9C5A-5EFD2D09A8DD}|WeatherApp.csproj|c:\\users\\dsu student\\downloads\\final-project-weatherapp\\redesignedweatherapp\\weatherapp\\weatherservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAF40312-3190-4AA5-9C5A-5EFD2D09A8DD}|WeatherApp.csproj|solutionrelative:weatherservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAF40312-3190-4AA5-9C5A-5EFD2D09A8DD}|WeatherApp.csproj|c:\\users\\dsu student\\downloads\\final-project-weatherapp\\redesignedweatherapp\\weatherapp\\forecastday.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAF40312-3190-4AA5-9C5A-5EFD2D09A8DD}|WeatherApp.csproj|solutionrelative:forecastday.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAF40312-3190-4AA5-9C5A-5EFD2D09A8DD}|WeatherApp.csproj|c:\\users\\dsu student\\downloads\\final-project-weatherapp\\redesignedweatherapp\\weatherapp\\weatherinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAF40312-3190-4AA5-9C5A-5EFD2D09A8DD}|WeatherApp.csproj|solutionrelative:weatherinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAF40312-3190-4AA5-9C5A-5EFD2D09A8DD}|WeatherApp.csproj|c:\\users\\dsu student\\downloads\\final-project-weatherapp\\redesignedweatherapp\\weatherapp\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FAF40312-3190-4AA5-9C5A-5EFD2D09A8DD}|WeatherApp.csproj|solutionrelative:mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAF40312-3190-4AA5-9C5A-5EFD2D09A8DD}|WeatherApp.csproj|c:\\users\\dsu student\\downloads\\final-project-weatherapp\\redesignedweatherapp\\weatherapp\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAF40312-3190-4AA5-9C5A-5EFD2D09A8DD}|WeatherApp.csproj|solutionrelative:mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAF40312-3190-4AA5-9C5A-5EFD2D09A8DD}|WeatherApp.csproj|c:\\users\\dsu student\\downloads\\final-project-weatherapp\\redesignedweatherapp\\weatherapp\\mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAF40312-3190-4AA5-9C5A-5EFD2D09A8DD}|WeatherApp.csproj|solutionrelative:mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ForecastDay.cs",
+              "DocumentMoniker": "C:\\Users\\DSU Student\\Downloads\\final-project-weatherapp\\RedesignedWeatherApp\\WeatherApp\\ForecastDay.cs",
+              "RelativeDocumentMoniker": "ForecastDay.cs",
+              "ToolTip": "C:\\Users\\DSU Student\\Downloads\\final-project-weatherapp\\RedesignedWeatherApp\\WeatherApp\\ForecastDay.cs",
+              "RelativeToolTip": "ForecastDay.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T14:30:19.402Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainForm.cs",
+              "DocumentMoniker": "C:\\Users\\DSU Student\\Downloads\\final-project-weatherapp\\RedesignedWeatherApp\\WeatherApp\\MainForm.cs",
+              "RelativeDocumentMoniker": "MainForm.cs",
+              "ToolTip": "C:\\Users\\DSU Student\\Downloads\\final-project-weatherapp\\RedesignedWeatherApp\\WeatherApp\\MainForm.cs",
+              "RelativeToolTip": "MainForm.cs",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAjwGQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T03:55:54.879Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\DSU Student\\Downloads\\final-project-weatherapp\\RedesignedWeatherApp\\WeatherApp\\MainForm.Designer.cs",
+              "RelativeDocumentMoniker": "MainForm.Designer.cs",
+              "ToolTip": "C:\\Users\\DSU Student\\Downloads\\final-project-weatherapp\\RedesignedWeatherApp\\WeatherApp\\MainForm.Designer.cs",
+              "RelativeToolTip": "MainForm.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T03:49:50.165Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\DSU Student\\Downloads\\final-project-weatherapp\\RedesignedWeatherApp\\WeatherApp\\MainForm.cs",
+              "RelativeDocumentMoniker": "MainForm.cs",
+              "ToolTip": "C:\\Users\\DSU Student\\Downloads\\final-project-weatherapp\\RedesignedWeatherApp\\WeatherApp\\MainForm.cs [Design]",
+              "RelativeToolTip": "MainForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T03:49:10.848Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WeatherService.cs",
+              "DocumentMoniker": "C:\\Users\\DSU Student\\Downloads\\final-project-weatherapp\\RedesignedWeatherApp\\WeatherApp\\WeatherService.cs",
+              "RelativeDocumentMoniker": "WeatherService.cs",
+              "ToolTip": "C:\\Users\\DSU Student\\Downloads\\final-project-weatherapp\\RedesignedWeatherApp\\WeatherApp\\WeatherService.cs*",
+              "RelativeToolTip": "WeatherService.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T03:38:02.843Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "WeatherInfo.cs",
+              "DocumentMoniker": "C:\\Users\\DSU Student\\Downloads\\final-project-weatherapp\\RedesignedWeatherApp\\WeatherApp\\WeatherInfo.cs",
+              "RelativeDocumentMoniker": "WeatherInfo.cs",
+              "ToolTip": "C:\\Users\\DSU Student\\Downloads\\final-project-weatherapp\\RedesignedWeatherApp\\WeatherApp\\WeatherInfo.cs",
+              "RelativeToolTip": "WeatherInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T03:37:49.829Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
