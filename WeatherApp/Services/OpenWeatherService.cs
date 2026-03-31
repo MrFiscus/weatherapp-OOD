@@ -28,25 +28,33 @@ namespace WeatherForecastApp.Services
             var weatherJson = JObject.Parse(await response.Content.ReadAsStringAsync());
             var forecastJson = JObject.Parse(await forecastResponse.Content.ReadAsStringAsync());
 
-            weatherData.City = weatherJson["name"].ToString();
-            weatherData.Description = weatherJson["weather"][0]["description"].ToString();
-            weatherData.Temperature = (double)weatherJson["main"]["temp"];
-            weatherData.Humidity = (int)weatherJson["main"]["humidity"];
-            weatherData.WindSpeed = (double)weatherJson["wind"]["speed"];
-            weatherData.Icon = weatherJson["weather"][0]["icon"].ToString();
+            weatherData.City = weatherJson["name"]?.ToString() ?? city;
+            weatherData.Description = weatherJson["weather"]?[0]?["description"]?.ToString() ?? "Unavailable";
+            weatherData.Temperature = (double?)weatherJson["main"]?["temp"] ?? 0;
+            weatherData.HighTemperature = (double?)weatherJson["main"]?["temp_max"] ?? weatherData.Temperature;
+            weatherData.LowTemperature = (double?)weatherJson["main"]?["temp_min"] ?? weatherData.Temperature;
+            weatherData.Humidity = (int?)weatherJson["main"]?["humidity"] ?? 0;
+            weatherData.WindSpeed = (double?)weatherJson["wind"]?["speed"] ?? 0;
+            weatherData.Icon = weatherJson["weather"]?[0]?["icon"]?.ToString() ?? string.Empty;
 
             var forecasts = new List<DailyForecast>();
-            foreach (var item in forecastJson["list"])
+            foreach (var item in forecastJson["list"] ?? new JArray())
             {
-                var date = DateTime.Parse(item["dt_txt"].ToString());
+                var dateText = item["dt_txt"]?.ToString();
+                if (string.IsNullOrWhiteSpace(dateText))
+                {
+                    continue;
+                }
+
+                var date = DateTime.Parse(dateText);
                 if (date.Hour == 12)
                 {
                     forecasts.Add(new DailyForecast
                     {
                         Date = date,
-                        Temperature = (double)item["main"]["temp"],
-                        Description = item["weather"][0]["description"].ToString(),
-                        Icon = item["weather"][0]["icon"].ToString()
+                        Temperature = (double?)item["main"]?["temp"] ?? 0,
+                        Description = item["weather"]?[0]?["description"]?.ToString() ?? "Unavailable",
+                        Icon = item["weather"]?[0]?["icon"]?.ToString() ?? string.Empty
                     });
                 }
             }

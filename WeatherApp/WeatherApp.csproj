@@ -12,4 +12,10 @@
     <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Compile Remove="WeatherApp\**\*.cs" />
+    <EmbeddedResource Remove="WeatherApp\**\*.resx" />
+    <None Remove="WeatherApp\**" />
+  </ItemGroup>
+
 </Project>
